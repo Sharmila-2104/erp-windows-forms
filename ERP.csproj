@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A8E24A0D-BC5B-48B2-9E9E-D3EAAFA6F083}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ERP</RootNamespace>
+    <AssemblyName>ERP</AssemblyName>
+    <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.GridView, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.Themes.Material, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="TelerikCommon, Version=2023.1.117.48, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlMaster\CommonFeatures\Alerts.cs" />
+    <Compile Include="ControlMaster\CommonFeatures\Events.cs" />
+    <Compile Include="ControlMaster\CommonFeatures\Validation.cs" />
+    <Compile Include="ControlMaster\Buttons\ButtonDark.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlMaster\Buttons\ButtonPrimary.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlMaster\Buttons\ButtonDanger.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlMaster\Buttons\ButtonLight.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlMaster\Buttons\ButtonWarning.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlMaster\Buttons\ButtonStyle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlMaster\Buttons\RoundedButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlMaster\FontFamily\Fonts.cs" />
+    <Compile Include="ControlMaster\Theme\ThemeColor.cs" />
+    <Compile Include="ControlMaster\TransparentPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GeneralLedger\Master\COA_LedgerGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralLedger\Master\COA_LedgerGroup.Designer.cs">
+      <DependentUpon>COA_LedgerGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralLedger\Master\COA_Ledger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralLedger\Master\COA_Ledger.Designer.cs">
+      <DependentUpon>COA_Ledger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralLedger\Master\Currency.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralLedger\Master\Currency.Designer.cs">
+      <DependentUpon>Currency.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procurement\GRNNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procurement\GRNNumber.Designer.cs">
+      <DependentUpon>GRNNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procurement\Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procurement\Test.Designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Taxation\Master\HSN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Taxation\Master\HSN.designer.cs">
+      <DependentUpon>HSN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Taxation\Master\SAC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Taxation\Master\SAC.designer.cs">
+      <DependentUpon>SAC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Taxation\Master\TaxCluster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Taxation\Master\TaxCluster.designer.cs">
+      <DependentUpon>TaxCluster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Taxation\Master\TaxDesign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Taxation\Master\TaxDesign.Designer.cs">
+      <DependentUpon>TaxDesign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralLedger\Master\TaxDesignAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralLedger\Master\TaxDesignAdd.Designer.cs">
+      <DependentUpon>TaxDesignAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Taxation\Master\TaxElement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Taxation\Master\TaxElement.designer.cs">
+      <DependentUpon>TaxElement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Taxation\Master\TaxSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Taxation\Master\TaxSetup.designer.cs">
+      <DependentUpon>TaxSetup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralLedger\Master\TaxSetupAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralLedger\Master\TaxSetupAdd.Designer.cs">
+      <DependentUpon>TaxSetupAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Taxation\Master\WH_TaxAssign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Taxation\Master\WH_TaxAssign.designer.cs">
+      <DependentUpon>WH_TaxAssign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Taxation\Master\WithholdTax.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Taxation\Master\WithholdTax.designer.cs">
+      <DependentUpon>WithholdTax.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Master\ExpenseCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Master\ExpenseCode.Designer.cs">
+      <DependentUpon>ExpenseCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Master\Item.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Master\Item.designer.cs">
+      <DependentUpon>Item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Master\ItemAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Master\ItemAdd.designer.cs">
+      <DependentUpon>ItemAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Master\ItemCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Master\ItemCategory.designer.cs">
+      <DependentUpon>ItemCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Master\ItemGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Master\ItemGroup.Designer.cs">
+      <DependentUpon>ItemGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Master\ItemSubCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Master\ItemSubCategory.Designer.cs">
+      <DependentUpon>ItemSubCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Master\UoM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Master\UoM.Designer.cs">
+      <DependentUpon>UoM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralLedger\Submaster\NatureOfGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneralLedger\Submaster\NatureOfGroup.Designer.cs">
+      <DependentUpon>NatureOfGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Taxation\Submaster\TaxCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Taxation\Submaster\TaxCategory.Designer.cs">
+      <DependentUpon>TaxCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Taxation\Submaster\TaxImpact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Taxation\Submaster\TaxImpact.Designer.cs">
+      <DependentUpon>TaxImpact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Taxation\Submaster\TaxType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Taxation\Submaster\TaxType.Designer.cs">
+      <DependentUpon>TaxType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Taxation\Submaster\WithholdTaxCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Taxation\Submaster\WithholdTaxCategory.Designer.cs">
+      <DependentUpon>WithholdTaxCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Taxation\Submaster\WithholdTaxType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Taxation\Submaster\WithholdTaxType.Designer.cs">
+      <DependentUpon>WithholdTaxType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Master\Warehouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Master\Warehouse.Designer.cs">
+      <DependentUpon>Warehouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Submaster\MaterialClassification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Submaster\MaterialClassification.Designer.cs">
+      <DependentUpon>MaterialClassification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Submaster\MaterialOwnership.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Submaster\MaterialOwnership.Designer.cs">
+      <DependentUpon>MaterialOwnership.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Submaster\MaterialSegregation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Submaster\MaterialSegregation.Designer.cs">
+      <DependentUpon>MaterialSegregation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\Submaster\WarehouseCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory\Submaster\WarehouseCategory.Designer.cs">
+      <DependentUpon>WarehouseCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procurement\GRNAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procurement\GRNAdd.Designer.cs">
+      <DependentUpon>GRNAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procurement\Master\Vendor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procurement\Master\Vendor.Designer.cs">
+      <DependentUpon>Vendor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procurement\Master\VendorAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procurement\Master\VendorAdd.designer.cs">
+      <DependentUpon>VendorAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procurement\Master\VendorCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procurement\Master\VendorCategory.Designer.cs">
+      <DependentUpon>VendorCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procurement\Master\VendorGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procurement\Master\VendorGroup.Designer.cs">
+      <DependentUpon>VendorGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procurement\PurchaseEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procurement\PurchaseEdit.Designer.cs">
+      <DependentUpon>PurchaseEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procurement\PurchaseRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procurement\PurchaseRegister.Designer.cs">
+      <DependentUpon>PurchaseRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procurement\PurchaseOrderCreate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procurement\PurchaseOrderCreate.Designer.cs">
+      <DependentUpon>PurchaseOrderCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procurement\PurchaseNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procurement\PurchaseNumber.Designer.cs">
+      <DependentUpon>PurchaseNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procurement\Submaster\AssesseeTerritory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procurement\Submaster\AssesseeTerritory.Designer.cs">
+      <DependentUpon>AssesseeTerritory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procurement\Submaster\NatureofAssessee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procurement\Submaster\NatureofAssessee.Designer.cs">
+      <DependentUpon>NatureofAssessee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procurement\Submaster\PaymentBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procurement\Submaster\PaymentBase.Designer.cs">
+      <DependentUpon>PaymentBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Procurement\Submaster\RegistrationType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procurement\Submaster\RegistrationType.Designer.cs">
+      <DependentUpon>RegistrationType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SiteMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SiteMaster.Designer.cs">
+      <DependentUpon>SiteMaster.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="GeneralLedger\Master\COA_LedgerGroup.resx">
+      <DependentUpon>COA_LedgerGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralLedger\Master\COA_Ledger.resx">
+      <DependentUpon>COA_Ledger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralLedger\Master\Currency.resx">
+      <DependentUpon>Currency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procurement\GRNNumber.resx">
+      <DependentUpon>GRNNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procurement\Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Taxation\Master\HSN.resx">
+      <DependentUpon>HSN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Taxation\Master\SAC.resx">
+      <DependentUpon>SAC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Taxation\Master\TaxCluster.resx">
+      <DependentUpon>TaxCluster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Taxation\Master\TaxDesign.resx">
+      <DependentUpon>TaxDesign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralLedger\Master\TaxDesignAdd.resx">
+      <DependentUpon>TaxDesignAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Taxation\Master\TaxElement.resx">
+      <DependentUpon>TaxElement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Taxation\Master\TaxSetup.resx">
+      <DependentUpon>TaxSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralLedger\Master\TaxSetupAdd.resx">
+      <DependentUpon>TaxSetupAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Taxation\Master\WH_TaxAssign.resx">
+      <DependentUpon>WH_TaxAssign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Taxation\Master\WithholdTax.resx">
+      <DependentUpon>WithholdTax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Master\ExpenseCode.resx">
+      <DependentUpon>ExpenseCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Master\Item.resx">
+      <DependentUpon>Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Master\ItemAdd.resx">
+      <DependentUpon>ItemAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Master\ItemCategory.resx">
+      <DependentUpon>ItemCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Master\ItemGroup.resx">
+      <DependentUpon>ItemGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Master\ItemSubCategory.resx">
+      <DependentUpon>ItemSubCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Master\UoM.resx">
+      <DependentUpon>UoM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralLedger\Submaster\NatureOfGroup.resx">
+      <DependentUpon>NatureOfGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Taxation\Submaster\TaxCategory.resx">
+      <DependentUpon>TaxCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Taxation\Submaster\TaxImpact.resx">
+      <DependentUpon>TaxImpact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Taxation\Submaster\TaxType.resx">
+      <DependentUpon>TaxType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Taxation\Submaster\WithholdTaxCategory.resx">
+      <DependentUpon>WithholdTaxCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Taxation\Submaster\WithholdTaxType.resx">
+      <DependentUpon>WithholdTaxType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Master\Warehouse.resx">
+      <DependentUpon>Warehouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Submaster\MaterialClassification.resx">
+      <DependentUpon>MaterialClassification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Submaster\MaterialOwnership.resx">
+      <DependentUpon>MaterialOwnership.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Submaster\MaterialSegregation.resx">
+      <DependentUpon>MaterialSegregation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\Submaster\WarehouseCategory.resx">
+      <DependentUpon>WarehouseCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procurement\GRNAdd.resx">
+      <DependentUpon>GRNAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procurement\Master\Vendor.resx">
+      <DependentUpon>Vendor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procurement\Master\VendorAdd.resx">
+      <DependentUpon>VendorAdd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procurement\Master\VendorCategory.resx">
+      <DependentUpon>VendorCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procurement\Master\VendorGroup.resx">
+      <DependentUpon>VendorGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procurement\PurchaseEdit.resx">
+      <DependentUpon>PurchaseEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procurement\PurchaseRegister.resx">
+      <DependentUpon>PurchaseRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procurement\PurchaseOrderCreate.resx">
+      <DependentUpon>PurchaseOrderCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procurement\PurchaseNumber.resx">
+      <DependentUpon>PurchaseNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procurement\Submaster\AssesseeTerritory.resx">
+      <DependentUpon>AssesseeTerritory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procurement\Submaster\NatureofAssessee.resx">
+      <DependentUpon>NatureofAssessee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procurement\Submaster\PaymentBase.resx">
+      <DependentUpon>PaymentBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procurement\Submaster\RegistrationType.resx">
+      <DependentUpon>RegistrationType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SiteMaster.resx">
+      <DependentUpon>SiteMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ERP_DAO\ERP_DAO.csproj">
+      <Project>{bdf0cf7a-531d-4be2-a8b0-96a1339bb42e}</Project>
+      <Name>ERP_DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ERP_DTO\ERP_DTO.csproj">
+      <Project>{df811d6a-24ba-4586-b4f0-8e2173934839}</Project>
+      <Name>ERP_DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ledger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inventory1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pro1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ledger1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevron-left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chevron-right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\1-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calender.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
