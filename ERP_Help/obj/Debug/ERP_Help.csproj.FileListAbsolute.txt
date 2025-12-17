@@ -1,0 +1,42 @@
+D:\Project\ERP\Desktop\ERP_Help\bin\Debug\ERP_Help.dll
+D:\Project\ERP\Desktop\ERP_Help\bin\Debug\ERP_Help.pdb
+D:\Project\ERP\Desktop\ERP_Help\obj\Debug\ERP_Help.csproj.AssemblyReference.cache
+D:\Project\ERP\Desktop\ERP_Help\obj\Debug\ERP_Help.csproj.CoreCompileInputs.cache
+D:\Project\ERP\Desktop\ERP_Help\obj\Debug\ERP_Help.dll
+D:\Project\ERP\Desktop\ERP_Help\obj\Debug\ERP_Help.pdb
+D:\Project\erp-out-source\ERP_Help\bin\Debug\ERP_Help.dll
+D:\Project\erp-out-source\ERP_Help\bin\Debug\ERP_Help.pdb
+D:\Project\erp-out-source\ERP_Help\obj\Debug\ERP_Help.csproj.AssemblyReference.cache
+D:\Project\erp-out-source\ERP_Help\obj\Debug\ERP_Help.csproj.CoreCompileInputs.cache
+D:\Project\erp-out-source\ERP_Help\obj\Debug\ERP_Help.dll
+D:\Project\erp-out-source\ERP_Help\obj\Debug\ERP_Help.pdb
+D:\Project\ERP\Desktop\erp-out-source\ERP_Help\bin\Debug\ERP_Help.dll
+D:\Project\ERP\Desktop\erp-out-source\ERP_Help\bin\Debug\ERP_Help.pdb
+D:\Project\ERP\Desktop\erp-out-source\ERP_Help\obj\Debug\ERP_Help.csproj.AssemblyReference.cache
+D:\Project\ERP\Desktop\erp-out-source\ERP_Help\obj\Debug\ERP_Help.csproj.CoreCompileInputs.cache
+D:\Project\ERP\Desktop\erp-out-source\ERP_Help\obj\Debug\ERP_Help.dll
+D:\Project\ERP\Desktop\erp-out-source\ERP_Help\obj\Debug\ERP_Help.pdb
+D:\Project\ERP\Desktop\erp-project\ERP_Help\bin\Debug\ERP_Help.dll
+D:\Project\ERP\Desktop\erp-project\ERP_Help\bin\Debug\ERP_Help.pdb
+D:\Project\ERP\Desktop\erp-project\ERP_Help\obj\Debug\ERP_Help.csproj.AssemblyReference.cache
+D:\Project\ERP\Desktop\erp-project\ERP_Help\obj\Debug\ERP_Help.csproj.CoreCompileInputs.cache
+D:\Project\ERP\Desktop\erp-project\ERP_Help\obj\Debug\ERP_Help.dll
+D:\Project\ERP\Desktop\erp-project\ERP_Help\obj\Debug\ERP_Help.pdb
+\\mrsoft\Projects\erp-project\ERP_Help\bin\Debug\ERP_Help.dll
+\\mrsoft\Projects\erp-project\ERP_Help\bin\Debug\ERP_Help.pdb
+\\mrsoft\Projects\erp-project\ERP_Help\obj\Debug\ERP_Help.csproj.AssemblyReference.cache
+\\mrsoft\Projects\erp-project\ERP_Help\obj\Debug\ERP_Help.csproj.CoreCompileInputs.cache
+\\mrsoft\Projects\erp-project\ERP_Help\obj\Debug\ERP_Help.dll
+\\mrsoft\Projects\erp-project\ERP_Help\obj\Debug\ERP_Help.pdb
+E:\Projects\erp-project\ERP_Help\bin\Debug\ERP_Help.dll
+E:\Projects\erp-project\ERP_Help\bin\Debug\ERP_Help.pdb
+E:\Projects\erp-project\ERP_Help\obj\Debug\ERP_Help.csproj.AssemblyReference.cache
+E:\Projects\erp-project\ERP_Help\obj\Debug\ERP_Help.csproj.CoreCompileInputs.cache
+E:\Projects\erp-project\ERP_Help\obj\Debug\ERP_Help.dll
+E:\Projects\erp-project\ERP_Help\obj\Debug\ERP_Help.pdb
+D:\Sharmila\Old\Out Studies project\Mind Reader\erp-project\ERP_Help\bin\Debug\ERP_Help.dll
+D:\Sharmila\Old\Out Studies project\Mind Reader\erp-project\ERP_Help\bin\Debug\ERP_Help.pdb
+D:\Sharmila\Old\Out Studies project\Mind Reader\erp-project\ERP_Help\obj\Debug\ERP_Help.csproj.AssemblyReference.cache
+D:\Sharmila\Old\Out Studies project\Mind Reader\erp-project\ERP_Help\obj\Debug\ERP_Help.csproj.CoreCompileInputs.cache
+D:\Sharmila\Old\Out Studies project\Mind Reader\erp-project\ERP_Help\obj\Debug\ERP_Help.dll
+D:\Sharmila\Old\Out Studies project\Mind Reader\erp-project\ERP_Help\obj\Debug\ERP_Help.pdb

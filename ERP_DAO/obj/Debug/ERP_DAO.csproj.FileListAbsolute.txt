@@ -1,0 +1,105 @@
+D:\Project\ERP\Desktop\ERP_DAO\obj\Debug\ERP_DAO.csproj.AssemblyReference.cache
+D:\Project\ERP\Desktop\ERP_DAO\obj\Debug\ERP_DAO.csproj.CoreCompileInputs.cache
+D:\Project\ERP\Desktop\ERP_DAO\bin\Debug\ERP_DAO.dll
+D:\Project\ERP\Desktop\ERP_DAO\bin\Debug\ERP_DAO.pdb
+D:\Project\ERP\Desktop\ERP_DAO\bin\Debug\ERP_DTO.dll
+D:\Project\ERP\Desktop\ERP_DAO\bin\Debug\ERP_Help.dll
+D:\Project\ERP\Desktop\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Project\ERP\Desktop\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Project\ERP\Desktop\ERP_DAO\bin\Debug\ERP_DTO.pdb
+D:\Project\ERP\Desktop\ERP_DAO\bin\Debug\ERP_Help.pdb
+D:\Project\ERP\Desktop\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Project\ERP\Desktop\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Project\ERP\Desktop\ERP_DAO\obj\Debug\ERP_DAO.csproj.Up2Date
+D:\Project\ERP\Desktop\ERP_DAO\obj\Debug\ERP_DAO.dll
+D:\Project\ERP\Desktop\ERP_DAO\obj\Debug\ERP_DAO.pdb
+D:\Project\erp-out-source\ERP_DAO\bin\Debug\ERP_DAO.dll
+D:\Project\erp-out-source\ERP_DAO\bin\Debug\ERP_DAO.pdb
+D:\Project\erp-out-source\ERP_DAO\bin\Debug\ERP_DTO.dll
+D:\Project\erp-out-source\ERP_DAO\bin\Debug\ERP_Help.dll
+D:\Project\erp-out-source\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Project\erp-out-source\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Project\erp-out-source\ERP_DAO\bin\Debug\ERP_DTO.pdb
+D:\Project\erp-out-source\ERP_DAO\bin\Debug\ERP_Help.pdb
+D:\Project\erp-out-source\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Project\erp-out-source\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Project\erp-out-source\ERP_DAO\obj\Debug\ERP_DAO.csproj.AssemblyReference.cache
+D:\Project\erp-out-source\ERP_DAO\obj\Debug\ERP_DAO.csproj.CoreCompileInputs.cache
+D:\Project\erp-out-source\ERP_DAO\obj\Debug\ERP_DAO.csproj.CopyComplete
+D:\Project\erp-out-source\ERP_DAO\obj\Debug\ERP_DAO.dll
+D:\Project\erp-out-source\ERP_DAO\obj\Debug\ERP_DAO.pdb
+D:\Project\ERP\Desktop\erp-out-source\ERP_DAO\bin\Debug\ERP_DAO.dll
+D:\Project\ERP\Desktop\erp-out-source\ERP_DAO\bin\Debug\ERP_DAO.pdb
+D:\Project\ERP\Desktop\erp-out-source\ERP_DAO\bin\Debug\ERP_DTO.dll
+D:\Project\ERP\Desktop\erp-out-source\ERP_DAO\bin\Debug\ERP_Help.dll
+D:\Project\ERP\Desktop\erp-out-source\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Project\ERP\Desktop\erp-out-source\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Project\ERP\Desktop\erp-out-source\ERP_DAO\bin\Debug\ERP_DTO.pdb
+D:\Project\ERP\Desktop\erp-out-source\ERP_DAO\bin\Debug\ERP_Help.pdb
+D:\Project\ERP\Desktop\erp-out-source\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Project\ERP\Desktop\erp-out-source\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Project\ERP\Desktop\erp-out-source\ERP_DAO\obj\Debug\ERP_DAO.csproj.AssemblyReference.cache
+D:\Project\ERP\Desktop\erp-out-source\ERP_DAO\obj\Debug\ERP_DAO.csproj.CoreCompileInputs.cache
+D:\Project\ERP\Desktop\erp-out-source\ERP_DAO\obj\Debug\ERP_DAO.csproj.Up2Date
+D:\Project\ERP\Desktop\erp-out-source\ERP_DAO\obj\Debug\ERP_DAO.dll
+D:\Project\ERP\Desktop\erp-out-source\ERP_DAO\obj\Debug\ERP_DAO.pdb
+D:\Project\ERP\Desktop\erp-project\ERP_DAO\bin\Debug\ERP_DAO.dll
+D:\Project\ERP\Desktop\erp-project\ERP_DAO\bin\Debug\ERP_DAO.pdb
+D:\Project\ERP\Desktop\erp-project\ERP_DAO\bin\Debug\ERP_DTO.dll
+D:\Project\ERP\Desktop\erp-project\ERP_DAO\bin\Debug\ERP_Help.dll
+D:\Project\ERP\Desktop\erp-project\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Project\ERP\Desktop\erp-project\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Project\ERP\Desktop\erp-project\ERP_DAO\bin\Debug\ERP_DTO.pdb
+D:\Project\ERP\Desktop\erp-project\ERP_DAO\bin\Debug\ERP_Help.pdb
+D:\Project\ERP\Desktop\erp-project\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Project\ERP\Desktop\erp-project\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Project\ERP\Desktop\erp-project\ERP_DAO\obj\Debug\ERP_DAO.csproj.AssemblyReference.cache
+D:\Project\ERP\Desktop\erp-project\ERP_DAO\obj\Debug\ERP_DAO.csproj.CoreCompileInputs.cache
+D:\Project\ERP\Desktop\erp-project\ERP_DAO\obj\Debug\ERP_DAO.csproj.Up2Date
+D:\Project\ERP\Desktop\erp-project\ERP_DAO\obj\Debug\ERP_DAO.dll
+D:\Project\ERP\Desktop\erp-project\ERP_DAO\obj\Debug\ERP_DAO.pdb
+\\mrsoft\Projects\erp-project\ERP_DAO\bin\Debug\ERP_DAO.dll
+\\mrsoft\Projects\erp-project\ERP_DAO\bin\Debug\ERP_DAO.pdb
+\\mrsoft\Projects\erp-project\ERP_DAO\bin\Debug\ERP_DTO.dll
+\\mrsoft\Projects\erp-project\ERP_DAO\bin\Debug\ERP_Help.dll
+\\mrsoft\Projects\erp-project\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+\\mrsoft\Projects\erp-project\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+\\mrsoft\Projects\erp-project\ERP_DAO\bin\Debug\ERP_DTO.pdb
+\\mrsoft\Projects\erp-project\ERP_DAO\bin\Debug\ERP_Help.pdb
+\\mrsoft\Projects\erp-project\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+\\mrsoft\Projects\erp-project\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+\\mrsoft\Projects\erp-project\ERP_DAO\obj\Debug\ERP_DAO.csproj.AssemblyReference.cache
+\\mrsoft\Projects\erp-project\ERP_DAO\obj\Debug\ERP_DAO.csproj.CoreCompileInputs.cache
+\\mrsoft\Projects\erp-project\ERP_DAO\obj\Debug\ERP_DAO.csproj.CopyComplete
+\\mrsoft\Projects\erp-project\ERP_DAO\obj\Debug\ERP_DAO.dll
+\\mrsoft\Projects\erp-project\ERP_DAO\obj\Debug\ERP_DAO.pdb
+E:\Projects\erp-project\ERP_DAO\bin\Debug\ERP_DAO.dll
+E:\Projects\erp-project\ERP_DAO\bin\Debug\ERP_DAO.pdb
+E:\Projects\erp-project\ERP_DAO\bin\Debug\ERP_DTO.dll
+E:\Projects\erp-project\ERP_DAO\bin\Debug\ERP_Help.dll
+E:\Projects\erp-project\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Projects\erp-project\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Projects\erp-project\ERP_DAO\bin\Debug\ERP_DTO.pdb
+E:\Projects\erp-project\ERP_DAO\bin\Debug\ERP_Help.pdb
+E:\Projects\erp-project\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+E:\Projects\erp-project\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+E:\Projects\erp-project\ERP_DAO\obj\Debug\ERP_DAO.csproj.AssemblyReference.cache
+E:\Projects\erp-project\ERP_DAO\obj\Debug\ERP_DAO.csproj.CoreCompileInputs.cache
+E:\Projects\erp-project\ERP_DAO\obj\Debug\ERP_DAO.csproj.Up2Date
+E:\Projects\erp-project\ERP_DAO\obj\Debug\ERP_DAO.dll
+E:\Projects\erp-project\ERP_DAO\obj\Debug\ERP_DAO.pdb
+D:\Sharmila\Old\Out Studies project\Mind Reader\erp-project\ERP_DAO\bin\Debug\ERP_DAO.dll
+D:\Sharmila\Old\Out Studies project\Mind Reader\erp-project\ERP_DAO\bin\Debug\ERP_DAO.pdb
+D:\Sharmila\Old\Out Studies project\Mind Reader\erp-project\ERP_DAO\bin\Debug\ERP_DTO.dll
+D:\Sharmila\Old\Out Studies project\Mind Reader\erp-project\ERP_DAO\bin\Debug\ERP_Help.dll
+D:\Sharmila\Old\Out Studies project\Mind Reader\erp-project\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Sharmila\Old\Out Studies project\Mind Reader\erp-project\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Sharmila\Old\Out Studies project\Mind Reader\erp-project\ERP_DAO\bin\Debug\ERP_DTO.pdb
+D:\Sharmila\Old\Out Studies project\Mind Reader\erp-project\ERP_DAO\bin\Debug\ERP_Help.pdb
+D:\Sharmila\Old\Out Studies project\Mind Reader\erp-project\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Sharmila\Old\Out Studies project\Mind Reader\erp-project\ERP_DAO\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\Sharmila\Old\Out Studies project\Mind Reader\erp-project\ERP_DAO\obj\Debug\ERP_DAO.csproj.AssemblyReference.cache
+D:\Sharmila\Old\Out Studies project\Mind Reader\erp-project\ERP_DAO\obj\Debug\ERP_DAO.csproj.CoreCompileInputs.cache
+D:\Sharmila\Old\Out Studies project\Mind Reader\erp-project\ERP_DAO\obj\Debug\ERP_DAO.csproj.Up2Date
+D:\Sharmila\Old\Out Studies project\Mind Reader\erp-project\ERP_DAO\obj\Debug\ERP_DAO.dll
+D:\Sharmila\Old\Out Studies project\Mind Reader\erp-project\ERP_DAO\obj\Debug\ERP_DAO.pdb
